@@ -32,7 +32,7 @@ def main():
         save_secure_urls(secure_urls, file_path)
 
         next_cursor = data.get('next_cursor')
-        i=i+1
+        i+=1
         print(f"Pass {i}")
         print(next_cursor)
         if not next_cursor:
